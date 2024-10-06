@@ -7,3 +7,4 @@ in Home path...
 .config ->  hypr -> hyprland.conf, hyperpaper.conf
              -> waybar -> config, style.css
              -> waypaper -> config.ini ```
+(now i use waybar by https://github.com/Sejjy/MechaBar)
