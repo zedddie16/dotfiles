@@ -1,4 +1,4 @@
-background_opacity 0 
+background_opacity 0
 #0.7
 font_family Monospace
 #JetBrainsMono Nerd Font Mono extraBold
@@ -6,7 +6,7 @@ font_family Monospace
 
 
 # BEGIN_KITTY_THEME
-# pink lavender
+# Base2Tone Cave Dark
 include current-theme.conf
 # END_KITTY_THEME
 
