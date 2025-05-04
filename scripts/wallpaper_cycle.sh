@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Directory containing wallpapers
-WALLPAPER_DIR="$HOME/Pictures/mizu_cards"
+WALLPAPER_DIR="$HOME/Wallpapers/Mizuki/"
 
 # Get all image files in the directory (more explicit pattern matching)
 WALLPAPERS=()
