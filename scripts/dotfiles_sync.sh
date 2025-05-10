@@ -12,7 +12,7 @@ cp -r tmux $DOTFILES_DIR
 cp -r hypr $DOTFILES_DIR
 cp -r ~/dev/scripts/ $DOTFILES_DIR
 cp -r waybar $DOTFILES_DIR
-cp cava/config $DOTFILES_DIR/cava/
+cp cava/config "$DOTFILES_DIR/cava/"
 
 cd $DOTFILES_DIR
 git add .
