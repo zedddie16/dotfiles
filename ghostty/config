@@ -3,7 +3,7 @@ font-family =
 # foreground = 282c34
 # theme = catppuccin-mocha
 font-family = Iosevka #"Fira Code" "JetBrains Mono" "Cascadia Code" "Hack" "Iosevka"
-
+background-opacity = 0.9
 font-synthetic-style = true
 # This is the configuration file for Ghostty.
 #
