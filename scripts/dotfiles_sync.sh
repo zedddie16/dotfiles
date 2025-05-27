@@ -13,6 +13,7 @@ cp -r hypr $DOTFILES_DIR
 cp -r ~/dev/scripts/ $DOTFILES_DIR
 cp -r waybar $DOTFILES_DIR
 cp cava/config "$DOTFILES_DIR/cava/"
+cp ~/.zshrc $DOTFILES_DIR
 
 cd $DOTFILES_DIR
 git add .
