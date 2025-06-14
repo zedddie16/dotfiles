@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # - $ZSH_CUSTOM/macos.zsh
 # For a full list of active aliases, run `alias`.
 #
-source /usr/share/nvm/init-nvm.sh
+# source /usr/share/nvm/init-nvm.sh dont remember what it does XD
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -113,3 +113,4 @@ source ~/.zsh/zsh-vi-mode/zsh-vi-mode.plugin.zsh
 source ~/.zsh/zsh-fzf-history-search/zsh-fzf-history-search.plugin.zsh
 alias ls='exa --icons'
 alias cat='bat'
+alias c='cargo'
