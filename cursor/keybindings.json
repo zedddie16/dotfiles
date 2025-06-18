@@ -92,4 +92,170 @@
         "args": "<C-d>zz",
         "when": "neovim.mode == normal"
     },
+
+    // ========================================
+    // NEOVIM-STYLE SPACE LEADER KEYBINDINGS
+    // ========================================
+    
+    // Search group - <leader>s*
+    {
+        "key": "space s f",
+        "command": "workbench.action.quickOpen",
+        "when": "!inChat"
+    },
+    {
+        "key": "space space",
+        "command": "workbench.action.showAllEditors",
+        "when": "!inChat"
+    },
+    {
+        "key": "space /",
+        "command": "actions.find",
+        "when": "!inChat"
+    },
+    {
+        "key": "space s g",
+        "command": "workbench.action.findInFiles",
+        "when": "!inChat"
+    },
+    {
+        "key": "space s w",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "!inChat"
+    },
+    {
+        "key": "space s .",
+        "command": "workbench.action.openRecent",
+        "when": "!inChat"
+    },
+    {
+        "key": "space s h",
+        "command": "workbench.action.showCommands",
+        "when": "!inChat"
+    },
+    {
+        "key": "space s k",
+        "command": "workbench.action.openGlobalKeybindings",
+        "when": "!inChat"
+    },
+    {
+        "key": "space s d",
+        "command": "workbench.actions.view.problems",
+        "when": "!inChat"
+    },
+    {
+        "key": "space s r",
+        "command": "workbench.action.findInFiles",
+        "when": "!inChat"
+    },
+    {
+        "key": "space s t",
+        "command": "workbench.action.selectTheme",
+        "when": "!inChat"
+    },
+    {
+        "key": "space s n",
+        "command": "workbench.action.openSettingsJson",
+        "when": "!inChat"
+    },
+
+    // Diagnostics and quickfix
+    {
+        "key": "space q",
+        "command": "workbench.actions.view.problems",
+        "when": "!inChat"
+    },
+
+    // Toggle group - <leader>t*
+    {
+        "key": "space t f",
+        "command": "workbench.action.toggleZenMode",
+        "when": "!inChat"
+    },
+    {
+        "key": "space t s",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "!inChat"
+    },
+    {
+        "key": "space t t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when": "!inChat"
+    },
+    {
+        "key": "space t p",
+        "command": "workbench.action.togglePanel",
+        "when": "!inChat"
+    },
+    {
+        "key": "space t m",
+        "command": "editor.action.toggleMinimap",
+        "when": "!inChat"
+    },
+
+    // File operations
+    {
+        "key": "space f f",
+        "command": "workbench.action.quickOpen",
+        "when": "!inChat"
+    },
+    {
+        "key": "space f r",
+        "command": "workbench.action.openRecent",
+        "when": "!inChat"
+    },
+    {
+        "key": "space f s",
+        "command": "workbench.action.files.save",
+        "when": "!inChat"
+    },
+    {
+        "key": "space f a",
+        "command": "workbench.action.files.saveAll",
+        "when": "!inChat"
+    },
+
+    // Buffer operations (similar to your <leader><leader> binding)
+    {
+        "key": "space b b",
+        "command": "workbench.action.showAllEditors",
+        "when": "!inChat"
+    },
+    {
+        "key": "space b d",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "!inChat"
+    },
+    {
+        "key": "space b n",
+        "command": "workbench.action.nextEditor",
+        "when": "!inChat"
+    },
+    {
+        "key": "space b p",
+        "command": "workbench.action.previousEditor",
+        "when": "!inChat"
+    },
+
+    // Window navigation (Ctrl+hjkl like in your nvim)
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.focusLeftGroup",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+l", 
+        "command": "workbench.action.focusRightGroup",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.focusBelowGroup",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.focusAboveGroup", 
+        "when": "!terminalFocus"
+    }
 ] 
