@@ -78,4 +78,18 @@
     {
         "key": "ctrl+y", "command": "workbench.action.acceptSelectedQuickOpenItem", "when": "inQuickOpen"
     },
+    
+    // Fix Ctrl+U/D to center cursor properly with vscode-neovim
+    {
+        "key": "ctrl+u",
+        "command": "vscode-neovim.send",
+        "args": "<C-u>zz",
+        "when": "neovim.mode == normal"
+    },
+    {
+        "key": "ctrl+d", 
+        "command": "vscode-neovim.send",
+        "args": "<C-d>zz",
+        "when": "neovim.mode == normal"
+    },
 ] 
