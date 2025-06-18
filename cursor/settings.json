@@ -1,0 +1,42 @@
+{
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    // looks
+    // "editor.fontFamily": "JetBrainsMono Nerd Font",   
+    // "workbench.colorTheme": "Rosé Pine (no italics)",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "workbench.tips.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.startupEditor": "newUntiltedFile",
+    "workbench.editor.showTabs": "none",
+    "window.commandCenter": false,
+    "window.restoreWindows": "none",
+    "window.menuBarVisibility": "compact",
+    // "extensions.experimental.affinity": {
+    //     "asvetliakov.vscode-neovim": 1
+    // },
+    // "window.menuBarVisibility": "compact","window.menuBarVisibility": "compact",
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    // "window.commandCenter": 1,
+    // "extensions.experimental.affinity": {
+    //     "asvetliakov.vscode-neovim": 1
+    // },
+    // "cursor-retrieval.canAttemptGithubLogin": false,
+    // "workbench.editor.enablePreview": false,
+
+
+    }

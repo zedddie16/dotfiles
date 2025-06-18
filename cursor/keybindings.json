@@ -1,0 +1,81 @@
+[
+    /*
+    {
+        "key": "ctrl+i",
+        "command": "-composerMode.agent"
+    },
+    {
+        "key": "ctrl+l", 
+        "command": "-workbench.action.chat.newChatEditor"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-editor.action.showHover"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-editor.action.insertCursorAtEndOfEachLineSelected"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+/",
+        "command": "-editor.action.commentLine"
+    },
+    */
+
+    {
+        "key": "ctrl+alt+i",
+        "command": "composerMode.agent"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "workbench.action.chat.newChatEditor"
+    },
+    {
+        "key": "ctrl+alt+k", 
+        "command": "inlineChat.start"
+    },
+    {
+        "key": "ctrl+alt+shift+l",
+        "command": "workbench.action.chat.openInSidebar"
+    },
+    {
+        "key": "ctrl+alt+e",
+        "command": "workbench.action.showCommands"
+    },
+    
+    // Disable original AI bindings to prevent conflicts
+    {
+        "key": "ctrl+i",
+        "command": "-composerMode.agent"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-workbench.action.chat.newChatEditor"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-inlineChat.start" 
+    },
+
+    {
+        "key": "\\",
+        "command": "workbench.action.toggleSidebarVisibility",
+    },
+    {
+        "key": "ctrl+n", "command": "workbench.action.quickOpenSelectNext", "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+p", "command": "workbench.action.quickOpenSelectPrevious", "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+y", "command": "workbench.action.acceptSelectedQuickOpenItem", "when": "inQuickOpen"
+    },
+] 
