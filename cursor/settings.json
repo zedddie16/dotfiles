@@ -10,9 +10,16 @@
     "workbench.editor.showTabs": "none",
     "window.commandCenter": false,
     "window.restoreWindows": "none",
-    "window.menuBarVisibility": "compact",
     "editor.lineNumbers": "relative",
     
+    // hide title bar
+    "window.titleBarStyle": "native",   
+    "window.menuBarVisibility": "toggle", // press alt to reveal (wont work if prev is native)
+    // remove scrollbar 
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.verticalScrollbarSize": 0,
+    "editor.scrollbar.horizontalScrollbarSize": 0,
     // Scrolloff 
     "editor.cursorSurroundingLines": 21,
     
