@@ -22,6 +22,10 @@
     // Scrolloff 
     "editor.cursorSurroundingLines": 21,
     
+    // Disable cursor blinking
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "off",
+    
     // Neovim extension specific settings
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
     "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
