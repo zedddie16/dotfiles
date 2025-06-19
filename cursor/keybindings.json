@@ -423,10 +423,21 @@
         "when": "!inChat"
     },
 
-    // Your existing custom bindings
+    // Your existing custom bindings - Smart toggle for file explorer
+    {
+        "key": "\\",
+        "command": "workbench.view.explorer",
+        "when": "!sideBarVisible || !explorerViewletVisible"
+    },
     {
         "key": "\\",
         "command": "workbench.action.toggleSidebarVisibility",
+        "when": "sideBarVisible && explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "\\",
+        "command": "workbench.view.explorer",
+        "when": "sideBarVisible && !filesExplorerFocus"
     },
     {
         "key": "ctrl+n", "command": "workbench.action.quickOpenSelectNext", "when": "inQuickOpen"
