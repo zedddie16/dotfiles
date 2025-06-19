@@ -94,6 +94,171 @@
     },
 
     // ========================================
+    // FILE EXPLORER HJKL NAVIGATION (FIXED)
+    // ========================================
+    
+    // File Explorer navigation with hjkl
+    {
+        "key": "h",
+        "command": "list.collapse",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "l",
+        "command": "list.toggleExpand",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "j", 
+        "command": "list.focusDown",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "k",
+        "command": "list.focusUp", 
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    
+    // Additional file explorer shortcuts
+    {
+        "key": "o",
+        "command": "explorer.openToSide",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "enter",
+        "command": "list.toggleExpand",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "space",
+        "command": "explorer.openToSide",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    
+    // File explorer actions
+    {
+        "key": "a",
+        "command": "explorer.newFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "shift+a",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "d",
+        "command": "deleteFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "r",
+        "command": "renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "y",
+        "command": "filesExplorer.copy",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "p",
+        "command": "filesExplorer.paste",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "x",
+        "command": "filesExplorer.cut",
+        "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    },
+
+    // ========================================
+    // FIXED FOCUS MANAGEMENT (CTRL+W+HJKL)
+    // ========================================
+    
+    // Neovim-style window navigation Ctrl+W+hjkl
+    {
+        "key": "ctrl+w h",
+        "command": "workbench.action.focusLeftGroup",
+        "when": "!terminalFocus && !filesExplorerFocus && !inChat"
+    },
+    {
+        "key": "ctrl+w l", 
+        "command": "workbench.action.focusRightGroup",
+        "when": "!terminalFocus && !filesExplorerFocus && !inChat"
+    },
+    {
+        "key": "ctrl+w j",
+        "command": "workbench.action.focusBelowGroup",
+        "when": "!terminalFocus && !filesExplorerFocus && !inChat"
+    },
+    {
+        "key": "ctrl+w k",
+        "command": "workbench.action.focusAboveGroup", 
+        "when": "!terminalFocus && !filesExplorerFocus && !inChat"
+    },
+    
+    // Focus sidebar/explorer from editor
+    {
+        "key": "ctrl+w h",
+        "command": "workbench.action.focusSideBar",
+        "when": "editorFocus && sideBarVisible"
+    },
+    
+    // Focus editor from sidebar
+    {
+        "key": "ctrl+w l",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "sideBarFocus"
+    },
+    
+    // Focus chat from editor (using Space+c instead of Ctrl+W+L to avoid conflicts)
+    {
+        "key": "space c",
+        "command": "workbench.action.chat.focusInput",
+        "when": "editorFocus"
+    },
+    
+    // FIXED: Multiple ways to escape from AI chat input
+    {
+        "key": "escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "inChat"
+    },
+    {
+        "key": "ctrl+w h",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "inChat"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "inChat"
+    },
+
+    // ========================================
+    // SIDEBAR NAVIGATION SHORTCUTS
+    // ========================================
+    
+    // Quick access to sidebar sections
+    {
+        "key": "space e",
+        "command": "workbench.view.explorer",
+        "when": "!inChat"
+    },
+    {
+        "key": "space g",
+        "command": "workbench.view.scm",
+        "when": "!inChat"  
+    },
+    {
+        "key": "space c",
+        "command": "workbench.action.chat.openInSidebar",
+        "when": "!inChat && !chatViewVisible"
+    },
+
+    // ========================================
     // NEOVIM-STYLE SPACE LEADER KEYBINDINGS
     // ========================================
     
@@ -193,7 +358,7 @@
         "when": "!inChat"
     },
 
-    // File operations
+    // File operations  
     {
         "key": "space f f",
         "command": "workbench.action.quickOpen",
@@ -237,25 +402,18 @@
         "when": "!inChat"
     },
 
-    // Window navigation (Ctrl+hjkl like in your nvim)
+    // Your existing custom bindings
     {
-        "key": "ctrl+h",
-        "command": "workbench.action.focusLeftGroup",
-        "when": "!terminalFocus"
+        "key": "\\",
+        "command": "workbench.action.toggleSidebarVisibility",
     },
     {
-        "key": "ctrl+l", 
-        "command": "workbench.action.focusRightGroup",
-        "when": "!terminalFocus"
+        "key": "ctrl+n", "command": "workbench.action.quickOpenSelectNext", "when": "inQuickOpen"
     },
     {
-        "key": "ctrl+j",
-        "command": "workbench.action.focusBelowGroup",
-        "when": "!terminalFocus"
+        "key": "ctrl+p", "command": "workbench.action.quickOpenSelectPrevious", "when": "inQuickOpen"
     },
     {
-        "key": "ctrl+k",
-        "command": "workbench.action.focusAboveGroup", 
-        "when": "!terminalFocus"
+        "key": "ctrl+y", "command": "workbench.action.acceptSelectedQuickOpenItem", "when": "inQuickOpen"
     }
 ] 
