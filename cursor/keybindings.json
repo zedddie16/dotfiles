@@ -93,11 +93,10 @@
         "when": "neovim.mode == normal"
     },
 
-    // ========================================
-    // FILE EXPLORER HJKL NAVIGATION (FIXED)
-    // ========================================
+    // ==============================
+    // FILE EXPLORER HJKL NAVIGATION 
+    // ==============================
     
-    // File Explorer navigation with hjkl
     {
         "key": "h",
         "command": "list.collapse",
@@ -177,7 +176,6 @@
     // RETURN TO EDITOR FROM FILE EXPLORER  
     // ========================================
     
-    // Return to editor without opening anything
     {
         "key": "escape",
         "command": "workbench.action.focusActiveEditorGroup",
@@ -194,11 +192,10 @@
         "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
     },
 
-    // ========================================
-    // FIXED FOCUS MANAGEMENT (CTRL+W+HJKL)
-    // ========================================
+    // ==============================
+    // FOCUS MANAGEMENT (CTRL+W+HJKL)
+    // ==============================
     
-    // Neovim-style window navigation Ctrl+W+hjkl
     {
         "key": "ctrl+w h",
         "command": "workbench.action.focusLeftGroup",
@@ -234,14 +231,6 @@
         "when": "sideBarFocus"
     },
     
-    // Focus chat from editor (using Space+c instead of Ctrl+W+L to avoid conflicts)
-    {
-        "key": "space c",
-        "command": "workbench.action.chat.focusInput",
-        "when": "editorFocus"
-    },
-    
-    // FIXED: Multiple ways to escape from AI chat input
     {
         "key": "escape",
         "command": "workbench.action.focusActiveEditorGroup",
@@ -345,7 +334,10 @@
         "when": "!inChat"
     },
 
-    // Diagnostics and quickfix
+    // ==============================
+    // DIAGNOSTICS AND QUICKFIX
+    // ==============================
+    
     {
         "key": "space q",
         "command": "workbench.actions.view.problems",
@@ -379,7 +371,10 @@
         "when": "!inChat"
     },
 
-    // File operations  
+    // ==============================
+    // FILE OPERATIONS  
+    // ==============================
+    
     {
         "key": "space f f",
         "command": "workbench.action.quickOpen",
@@ -401,7 +396,10 @@
         "when": "!inChat"
     },
 
-    // Buffer operations (similar to your <leader><leader> binding)
+    // ==============================
+    // BUFFER OPERATIONS 
+    // ==============================
+    
     {
         "key": "space b b",
         "command": "workbench.action.showAllEditors",
@@ -423,7 +421,10 @@
         "when": "!inChat"
     },
 
-    // Your existing custom bindings - Smart toggle for file explorer
+    // ========================================
+    // FILE EXPLORER TOGGLE
+    // ========================================
+    
     {
         "key": "\\",
         "command": "workbench.view.explorer",

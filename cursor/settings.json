@@ -5,7 +5,6 @@
     // "editor.fontFamily": "JetBrainsMono Nerd Font",   
     // "workbench.colorTheme": "Rosé Pine (no italics)",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.minimap.enabled": false,
     "workbench.tips.enabled": false,
     "breadcrumbs.enabled": false,
     "workbench.startupEditor": "newUntiltedFile",
