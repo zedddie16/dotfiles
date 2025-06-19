@@ -25,5 +25,5 @@
     
     // Additional scrolling settings to help with centering
     "editor.scrollBeyondLastLine": false,
-    "workbench.colorTheme": "Rosé Pine (no italics)",
+    "workbench.colorTheme": "Tokyo Night Storm",
 }
