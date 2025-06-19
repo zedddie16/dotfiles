@@ -5,7 +5,6 @@
     "editor.guides.indentation": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tips.enabled": false,
-    "breadcrumbs.enabled": false,
     "workbench.startupEditor": "newUntiltedFile",
     "workbench.editor.showTabs": "none",
     "window.commandCenter": false,
@@ -32,5 +31,8 @@
     
     // Additional scrolling settings to help with centering
     "editor.scrollBeyondLastLine": false,
-    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "editor.stickyScroll.enabled": false,
+    "workbench.statusBar.visible": false,
+    "breadcrumbs.enabled": false,
 }

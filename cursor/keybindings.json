@@ -255,17 +255,17 @@
     {
         "key": "space e",
         "command": "workbench.view.explorer",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space g",
         "command": "workbench.view.scm",
-        "when": "!inChat && neovim.mode == normal"  
+        "when": "!inChat && neovim.mode == normal && editorFocus"  
     },
     {
         "key": "space c",
         "command": "workbench.action.chat.openInSidebar",
-        "when": "!inChat && !chatViewVisible && neovim.mode == normal"
+        "when": "!inChat && !chatViewVisible && neovim.mode == normal && editorFocus"
     },
 
     // ========================================
@@ -276,62 +276,62 @@
     {
         "key": "space s f",
         "command": "workbench.action.quickOpen",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space space",
         "command": "workbench.action.showAllEditors",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space /",
         "command": "actions.find",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space s g",
         "command": "workbench.action.findInFiles",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space s w",
         "command": "editor.action.addSelectionToNextFindMatch",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space s .",
         "command": "workbench.action.openRecent",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space s h",
         "command": "workbench.action.showCommands",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space s k",
         "command": "workbench.action.openGlobalKeybindings",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space s d",
         "command": "workbench.actions.view.problems",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space s r",
         "command": "workbench.action.findInFiles",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space s t",
         "command": "workbench.action.selectTheme",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space s n",
         "command": "workbench.action.openSettingsJson",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
 
     // ==============================
@@ -341,34 +341,34 @@
     {
         "key": "space q",
         "command": "workbench.actions.view.problems",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
 
     // Toggle group - <leader>t*
     {
         "key": "space t f",
         "command": "workbench.action.toggleZenMode",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space t s",
         "command": "workbench.action.toggleSidebarVisibility",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space t t",
         "command": "workbench.action.terminal.toggleTerminal",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space t p",
         "command": "workbench.action.togglePanel",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space t m",
         "command": "editor.action.toggleMinimap",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
 
     // ==============================
@@ -378,22 +378,22 @@
     {
         "key": "space f f",
         "command": "workbench.action.quickOpen",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space f r",
         "command": "workbench.action.openRecent",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space f s",
         "command": "workbench.action.files.save",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space f a",
         "command": "workbench.action.files.saveAll",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
 
     // ==============================
@@ -403,22 +403,22 @@
     {
         "key": "space b b",
         "command": "workbench.action.showAllEditors",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space b d",
         "command": "workbench.action.closeActiveEditor",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space b n",
         "command": "workbench.action.nextEditor",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
     {
         "key": "space b p",
         "command": "workbench.action.previousEditor",
-        "when": "!inChat && neovim.mode == normal"
+        "when": "!inChat && neovim.mode == normal && editorFocus"
     },
 
     // ========================================
@@ -428,17 +428,17 @@
     {
         "key": "\\",
         "command": "workbench.view.explorer",
-        "when": "!sideBarVisible || !explorerViewletVisible && neovim.mode == normal"
+        "when": "!sideBarVisible || !explorerViewletVisible && neovim.mode == normal && editorFocus"
     },
     {
         "key": "\\",
         "command": "workbench.action.toggleSidebarVisibility",
-        "when": "sideBarVisible && explorerViewletVisible && filesExplorerFocus && neovim.mode == normal"
+        "when": "sideBarVisible && explorerViewletVisible && filesExplorerFocus && neovim.mode == normal && editorFocus"
     },
     {
         "key": "\\",
         "command": "workbench.view.explorer",
-        "when": "sideBarVisible && !filesExplorerFocus && neovim.mode == normal"
+        "when": "sideBarVisible && !filesExplorerFocus && neovim.mode == normal && editorFocus"
     },
     {
         "key": "ctrl+n", "command": "workbench.action.quickOpenSelectNext", "when": "inQuickOpen && neovim.mode == normal"
@@ -448,5 +448,13 @@
     },
     {
         "key": "ctrl+y", "command": "workbench.action.acceptSelectedQuickOpenItem", "when": "inQuickOpen && neovim.mode == normal"
-    }
-] 
+    },
+
+    // toggle breadcrumbs        
+    {
+        "key": "ctrl+b",
+        "command": "breadcrumbs.toggle",
+        "when": "editorFocus"
+    },
+    
+]
