@@ -2,8 +2,7 @@
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
-    // "editor.fontFamily": "JetBrainsMono Nerd Font",   
-    // "workbench.colorTheme": "Rosé Pine (no italics)",
+    "editor.guides.indentation": false,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tips.enabled": false,
     "breadcrumbs.enabled": false,
@@ -26,4 +25,5 @@
     
     // Additional scrolling settings to help with centering
     "editor.scrollBeyondLastLine": false,
+    "workbench.colorTheme": "Rosé Pine (no italics)",
 }
