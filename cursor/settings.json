@@ -35,7 +35,7 @@
     
     // Additional scrolling settings to help with centering
     "editor.scrollBeyondLastLine": false,
-    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "workbench.colorTheme": "Rosé Pine (no italics)",
     "editor.stickyScroll.enabled": false,
     "workbench.statusBar.visible": false,
     "breadcrumbs.enabled": false,
