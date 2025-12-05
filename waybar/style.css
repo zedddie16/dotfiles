@@ -46,15 +46,16 @@ tooltip {
     all: unset;
     margin: 0px 3px;
     padding: 0px 2px;
-    background: #b58bff;
+    background: #f7daea;
+    /* background: #b58bff; */
     border-radius: 50%;
     transition: all 0.15s;
     min-width: 15px;
-    color: #0b0b0e;
+    color: #d74894;
 }
 
 #workspaces button.active {
-    background: #d8b3ff;
+    background:  	#e791bf;
 }
 
 #bluetooth,
