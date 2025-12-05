@@ -7,7 +7,6 @@
     "workbench.tips.enabled": false,
     "workbench.startupEditor": "newUntiltedFile",
     "workbench.editor.showTabs": "none",
-    "window.commandCenter": false,
     "window.restoreWindows": "none",
     "editor.lineNumbers": "relative",
     
@@ -35,9 +34,10 @@
     
     // Additional scrolling settings to help with centering
     "editor.scrollBeyondLastLine": false,
-    "workbench.colorTheme": "Rosé Pine (no italics)",
+    "workbench.colorTheme": "Black",
     "editor.stickyScroll.enabled": false,
     "workbench.statusBar.visible": false,
     "breadcrumbs.enabled": false,
+    "window.customTitleBarVisibility": "never",
     
 }
